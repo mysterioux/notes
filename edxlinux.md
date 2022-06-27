@@ -26,8 +26,16 @@ Sources:
 - https://events.linuxfoundation.org/
 - https://devswag.io/
 
+===================================
 ## Lesson 1 : The Linux Foundation
 ===================================
+Learning Objectives: By the end of this chapter, you should be able to:
+
+* Discuss the role of The Linux Foundation.
+* Appreciate the learning opportunities provided by The Linux Foundation's training program.
+* Describe the software environment required for this course.
+* Describe the three major Linux distribution families.
+
 Linux foundation was founded in 2002. Linux Foundation is home to its creator Linux Torvalds and lead maintainer Greg Kroah-Hartman. LF is a vendor-netural, non-profit organization dedicated to supporting the open source community through financial and intellectual resources, infratructural services, events and training.
 
 There are 3 Major Distribution Family
@@ -86,9 +94,15 @@ _ Even though it is built on top of Debian, it uses GNOME-based under the hood.
 
 Note: Most distributions differe on the use of their package management systems, software versions and file locations. This is why linux skills can be migrated swiftly across different distros.
 
-
+============================================
 ## Lesson 2 : Linux Philosophy and Concepts
 ============================================
+Learning Objectives: By the end of this chapter, you should be able to:
+
+* Discuss the history and philosophy of Linux.
+* Describe the Linux community.
+* Define the common terms associated with Linux.
+* Discuss the components of a Linux distribution.
 
 Linux is an open source computer operating system, initially developed on and for Intel x86-based personal computers. It has been subsequently ported to an astoundingly long list of other hardware platforms, from tiny embedded appliances to the world's largest supercomputers.
 
@@ -126,3 +140,15 @@ A Distribution (RHEL,Ubuntu,Debian etc) has:
 	|__ Libraries, Utilities, Configuration
 	|__ Support Services:Commercial/Community
 	|__ Documentation for: Commands, Application,Services
+
+
+==============================================
+## Lesson 3 : Linux Basics and System Startup
+==============================================
+
+Learning Objectives: By the end of this chapter, you should be able to:
+
+* Identify Linux filesystems.
+* Identify the differences between partitions and filesystems.
+* Describe the boot process.
+* Install Linux on a computer.
