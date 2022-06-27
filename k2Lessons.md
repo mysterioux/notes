@@ -1,0 +1,15 @@
+# KodeKloud Linux Foundation Certified Administrator (LFCA)
+===============================================================
+
+## Curriculum
+--------------
+- Essential Commands
+- Operation of Running Systems
+- User and Group Management
+- Networking
+- Service Configurations
+- Storage Management
+
+
+# - ESSENTIAL COMMANDS
+========================
