@@ -1,5 +1,4 @@
 # Curriculum with Edx
-======================
 
 C1: 	The Linux Foundation [done]
 C2: 	Linux Philosophy and Concepts 
@@ -20,15 +19,16 @@ C16:	More on Bash Shell Scripting
 C17:	Printing
 C18:	Local Security Principles
 
-Sources:
+### Sources:
 - https://training.linuxfoundation.org/
 - https://training.linuxfoundation.org/full-catalog/?_sft_product_type=training
 - https://events.linuxfoundation.org/
 - https://devswag.io/
 
-===================================
-## Lesson 1 : The Linux Foundation
-===================================
+---
+Lesson 1 : The Linux Foundation
+---
+
 Learning Objectives: By the end of this chapter, you should be able to:
 
 * Discuss the role of The Linux Foundation.
@@ -59,7 +59,6 @@ The Structure of Linux Distros:
 ref: https://lwn.net/Distributions/
 
 ### The Red Hat Family
--------------------------
 Red Hat Enterprise Linux (RHEL) heads the family that includes CentOS, CentOS Stream, Fedora and Oracle Linux.
 Note: 
 - Fedora has a close relationhip to RHEL thus it is been used as a upstream updates for RHEL. 
@@ -71,7 +70,6 @@ Note:
 
 
 ### The SUSE Family
--------------------------
 The relationship between SUSE  (SUSE Linux Enterprise Server, or SLES) and openSUSE is similar to the one described between RHEL, CentOS, and Fedora. openSUSE can be used as the reference distribution for the SUSE family, as it is available to end users at no cost.
 Note:
 - SUSE Linux Enterprise Server (SLES) is upstream for openSUSE
@@ -82,7 +80,6 @@ Note:
 
 
 ### The DEBIAN Family
--------------------------
 The Debian distribution is upstream for several other distributions, including Ubuntu. In turn, Ubuntu is upstream for Linux Mint and a number of other distributions. It is commonly used on both servers and desktop computers. Debian is a pure open source community project (not owned by any corporation) and has a strong focus on stability. 
 Note:
 - Debian provides by far the largest and most complete software repository to its users of any Linux distribution.
@@ -94,9 +91,9 @@ _ Even though it is built on top of Debian, it uses GNOME-based under the hood.
 
 Note: Most distributions differe on the use of their package management systems, software versions and file locations. This is why linux skills can be migrated swiftly across different distros.
 
-============================================
-## Lesson 2 : Linux Philosophy and Concepts
-============================================
+---
+Lesson 2 : Linux Philosophy and Concepts
+---
 Learning Objectives: By the end of this chapter, you should be able to:
 
 * Discuss the history and philosophy of Linux.
@@ -142,9 +139,9 @@ A Distribution (RHEL,Ubuntu,Debian etc) has:
 	|__ Documentation for: Commands, Application,Services
 
 
-==============================================
-## Lesson 3 : Linux Basics and System Startup
-==============================================
+---
+Lesson 3 : Linux Basics and System Startup
+---
 
 Learning Objectives: By the end of this chapter, you should be able to:
 
