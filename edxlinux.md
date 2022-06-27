@@ -101,3 +101,28 @@ Linux borrows heavily from the well-established UNIX operating system. It was wr
 NOTE: Linux was inspired by UNIX, but it is not UNIX.
 
 The Linux community is a far-reaching ecosystem consisting of developers, system administrators, users and vendors who use many different forums to connect with one another.
+
+### Linux Terminology
+-> Kernel : The brain of the operating system that glue between hardward and applications.
+
+-> Distributors : A collection of software combined with the linux kernel making up a linux-based OS (e.g Ubuntu, Fedora)
+
+-> Boot loader: A program that boots the operating system (GRUB / ISOLINUX)
+
+-> Service: A program that runs as a background process (httpd, nfsd, ntpd, ftpd etc)
+
+-> Filesystem:  A method of storing and organizing files in linux (e.g ext3, ext4, FAT, XFS, NTFS, Btrfs)
+
+-> X Window System: provides standard tool kits and protocol for building graphical user interface on nearly all linux systems.
+
+-> Desktop Environment: GUI on top of the operating system (GNOME, KDE, Xfce, Fluxbox)
+
+-> Command Line: An interface for typing commands on top of the operating system. The Shell -> is the command line interpreter that interprets the command line input and instructs the operating system to perform any necessary tasks and commands. (bash, tch, zsh)
+
+A Distribution (RHEL,Ubuntu,Debian etc) has:
+-Linux Kernel
+	|__ Applications
+	|__ Package Updates, Upgrades kernel and driver patches
+	|__ Libraries, Utilities, Configuration
+	|__ Support Services:Commercial/Community
+	|__ Documentation for: Commands, Application,Services
