@@ -1,6 +1,6 @@
 # Personal Study Notes
 
-## Introduction to Linux by EDX
+Introduction to Linux by EDX
 ---
 - Date: June 2022
 
