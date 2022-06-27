@@ -131,12 +131,13 @@ The Linux community is a far-reaching ecosystem consisting of developers, system
 -> Command Line: An interface for typing commands on top of the operating system. The Shell -> is the command line interpreter that interprets the command line input and instructs the operating system to perform any necessary tasks and commands. (bash, tch, zsh)
 
 A Distribution (RHEL,Ubuntu,Debian etc) has:
--Linux Kernel
-	|__ Applications
-	|__ Package Updates, Upgrades kernel and driver patches
-	|__ Libraries, Utilities, Configuration
-	|__ Support Services:Commercial/Community
-	|__ Documentation for: Commands, Application,Services
+
+	-Linux Kernel
+		|__ Applications
+		|__ Package Updates, Upgrades kernel and driver patches
+		|__ Libraries, Utilities, Configuration
+		|__ Support Services:Commercial/Community
+		|__ Documentation for: Commands, Application,Services
 
 
 ---
