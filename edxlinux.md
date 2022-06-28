@@ -157,21 +157,29 @@ The Linux boot process is the procedure for initializing the system. It consists
 
 The process is as follow:
 			
-			Power On
+			 Power On
 				|
-			  BIOS
+				v
+			   BIOS
 			  	|
+			  	v
 			Master Boot Record (MBR) also know as First Secotr of the Hard Disk
 				|
+				v
 			Boot Loader (e.g GRUB OR ISOLINUX)
 				|
+				v
 			Kernel (Linux OS)
 				|
+				v
 			Inital RAM disk- initramfs image
 				|
+				v
 			/sbin/init (parent process)
 				|
+				v
 			Command Shell using getty
 				|
+				v
 			X Windows System
 			(GUI - e.g GNOME, Xfce)
