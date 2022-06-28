@@ -1,4 +1,4 @@
-# Curriculum with Edx
+# Linux Curriculum Studies with Edx.com
 
 C1: 	The Linux Foundation [done]
 C2: 	Linux Philosophy and Concepts 
@@ -285,9 +285,51 @@ A filesystem is a method of storing/finding files on a hard disk (usually in a p
 
 One can think of a partition as a container in which a filesystem resides, although in some circumstances, a filesystem can span more than one partition if one uses symbolic links, which we will discuss much later.
 
-|		  		| windows	| 		Linux |
+|		  		| Windows	| 		Linux |
 |---------------|-----------|-------------|
 |Partition 		| Disk 		| /dev/sda1   |
 |Filessytem Type | NFTS/VFAT | EXT3/EXT4/XFS..|
 |Mounting Paramenters | DriveLetter | MountPoint|
 |Base Folder (where OS is stored)| C:\	| / |
+
+
+## The Filesystem Hierarchy Standard
+Linux systems store their important files according to a standard layout called the Filesystem Hierarchy Standard (FHS), which has long been maintained by the Linux Foundation.
+
+Linux uses the ‘/’ character to separate paths (unlike Windows, which uses ‘\’), and does not have drive letters. Multiple drives and/or partitions are mounted as directories in the single filesystem. 
+
+Removable media such as USB drives and CDs and DVDs will show up as mounted at [/run/media/yourusername/disklabel] for recent Linux systems, or under [/media] for older distributions. For example, if your username is student a USB pen drive labeled FEDORA might end up being found at /run/media/student/FEDORA, and a file README.txt on that disc would be at /run/media/student/FEDORA/README.txt.
+
+
+
+		____ /bin/ => Essential User Command Binaries
+		|
+		|___ /boot/ => Static files of the Boot Loader
+		|
+		|___ /dev/ => Device Files
+		|
+		|___ /etc/ => Host-specific System Configuration (requird directories OPT, X11, SOML,XML)
+		|
+		|___ /home/ => User Home Directories
+		|
+		|___ /lib/ => Essential Shared libraries & Kernel Modules
+		|
+		|___ /media/ => Mount point for removable media
+		|
+		|___ /mnt/ => Mount point for a temporarily mounted filesystems
+/-------|
+		|___ /opt/ => Add-on Application Software Packages
+		|
+		|___ /sbin/ => System Binaries
+		|
+		|___ /srv/ => Data for Services Provided by this System
+		|
+		|___ /tmp/ => Temporary Files
+		|
+		|___ /usr/ => (Multi-)User utilities and applications (including bin, include, lib, local, sbin, share)
+		|
+		|___ /var/ => Variable Files
+		|
+		|___ /root/ => Home Directory for the Root User
+		|
+		|___ /proc/ => Virtual File system Documenting kernel and process status as text files
