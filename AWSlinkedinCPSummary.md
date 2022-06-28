@@ -250,80 +250,135 @@ AWS GLOBAL INFRASTRUCTURE
 ***************************
 [2. SECURITY & COMPLIANCE]
 ***************************
-Review:
-- AWS Identity and Access Management (IAM)
-- AWS Web Application Firewall (WAF)
-- AWS Shield
-- Amazon Inspector
-- AWS Trusted Advior
-- Amazon GuardDuty
+# Area of focus on AWS Security & Complaince
+- Define the AWS Shared responsibility Model
+- Define the AWS Cloud Security and compliance concepts
+- Identify AWS Access management capabilities
+- Identify resources for receiving security-related support
 
-Take note of these Recommended security practices
+## Take note of these Recommended security practices
 - Shared Responsibility Model
 - Security Pillar of Well-Architected Framework
 - Principle of least Privilege
 
-IT Infrastructre in the Past
+## IT Infrastructre in the Past
 - Server rooms secured with key cards
 - Off-site data centers
 - Lots of security devices and people
 - Difficult to access
 
 
-Area of focus on AWS Security & Complaince
-- Define the AWS Shared responsibility Model
-- Define the AWS Cloud Security and compliance concepts
-- Identify AWS Access management capabilities
-- Identify resources for receiving security-related support
-
-* Shared Responsibility Model (SRM)
+## Shared Responsibility Model (SRM)
 (Your responsibility vs AWS responsibility)
 Security of cloud computing infrastructures and data is a SHARED RESPONSIBILITY between the customer and AWS
 
 -AWS is responsible for SECURITY OF THE CLOUD
 -The customer is responsible for SECURITY IN THE CLOUD
 
+AWS is responsible for "Security of the Cloud":
+	* AWS is responsible for protecting the infrastructure such as:
+		- physical security of data centers hosting the AWS Cloud
+		- Security of hardward, software, networing, and so on, that runs the cloud computing service
+	so in general, AWS is responsible for security of the computents that make up the AWS CLoud (like the data centers and physical servers)
+
+Customers is responsible for "Security on the Cloud":
+	* Every customer on AWS Cloud is responsible for protecting their own services/data/infrastruture i.e the customer is responsible for security of things inside the AWS Cloud.
+		- Customers are responsible for varying levels of security functions depending on the AWS Cloud service used, such as:
+			- protecting customer data and data encryption
+			- platform, applications , Identity and Access Management
+			- patching operating systems of VMs etc
+			- configuring firewalls etc
+
+Reference: https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html
+
+
+## The 3 Major Security Practice of AWS
+1. Shared Responsibility Model.
+2. SECURITY PILLAR of Well-Architected Framework.
+3. Principle of Least Privilege.
+
 ## Security on AWS Well-architected framework - the five/six pillars include
-- Operational Excellence
+Using the SCROPS - Structur
 - Security
-- Reliability
-- Performance Efficiency
 - Cost Optimization
+- Reliability
+- Operational Excellence
+- Performance Efficiency
 - Sustainability
 
-## The Security component of the pillar include
-- Identity & Access Management (IAM)
+Focusing on the Security part of the Well-architected Framwork, we have the following component that will help us to build architectures that protect your data and systems, control access, and respond automatically to security events.
+
+### SECURITY PILLAR COMPONENT INCLUDE:
+- Identity & Access Management (IAM) including "Identity Management & Permission Management"
 	* Actively manage all-user access
 	* Use strong identity foundation
-	* Principle of least privilege
-- Detective Control
+	* Principle of least privilege:
+		Every role has a set of access permsissions necesary to effectively complete its job, and the individual in the role should have no more or no less than the optimal level of access.
+			* Use Identity Access Management (IAM) to provide access
+			* You can provide access to resources to both users and other AWS Services
+			* Grouping users with the expected permission limits what each users in the group can do
+			* Start with minimum set of permissions, and grand additional only as necessary
+			* Determine what user/service needs to be able to do and craft policies to perform only those specific tasks
+
+	[Tools: AWS IAM]
+
+- Detective Control including 'Configure and Investigate'
 	* Enable traceability: ""Who did what, when?"
 	* Actively monitor alerts
 	* Audit actions and changes to environment in real time
-- Infrastructure Protection
+	
+	[Tools:  AMAZON GUARDDUTY] 
+
+- Infrastructure Protection including "Protecting Network & Protecting Compute"
 	* Apply security on all layers of infrastructure
 	* Not just the outer layer like the physcal data center
 	* Virtual servers: security multiple ayers like subnet, load balancer, and OS
 	* Security best practices should be automated to save time and money when scaling
-- Data Protection
+	
+	[Tools: AWS Shield]
+
+- Data Protection including "Data Classification, Protecting Data at Rest, Protecting Data in Transit"
 	* Data shoud be protected AT REST (images saved in s3 bucket)
 	* Data should be protected IN TRANSIT (Email being sent from one server to another)
-	* Security mechanisms should be adjusted dpending on sensitivity of data
-	* Keep people away from data
+	* Security mechanisms should be adjusted depending on sensitivity of data
+	* Keep people away from data (eliminate the need to direct access or manual proccessing of data)
+	
+	[Tools:  AWS Web Application Firewall (WAF)]
+
 - Incident Response
 	* Intervene, investigate, and deal with all security events
 	* Once issue is resolved, update incident management process
 	* Continue to learn from past mistakes and security events
+	
+	[Tools: AWS Trusted Advior & Amazon Inspector]
 
-Principle of least privilege
-* Every role has a set of access permsissions necesary to effectively complete its job, and the individual in the role should have no more or no less than the optimal level of access
-	* Use Identity Access Management (IAM) to provide access
-	* You can provide access to resources to both users and other AWS Services
-	* Start with minimum set of permissions, and grand additional only as necessary
-	* Determine what user/service needs to be able to do and craft policies to perform only those specific tasks
 
-* AWS Cloud Compliance
-https://aws.amazon.com/compliance/programs/
+## AWS Cloud Compliance Programs
+The AWS Compliance Program helps customers to understand the robust controls in place at AWS to maintain security and compliance in the cloud. By tying together governance-focused, audit-friendly service features with applicable compliance or audit standards, AWS Compliance Enablers build on traditional programs, helping customers to establish and operate in an AWS security control environment.
+
+These compliances are grouped according to Region. There are compliance that are acceptable globally while others are specific to either the industry or region.
+
+They are broken down by:
+- Certifications and Attestations
+- Laws
+- Regulations & Privacy
+- Alignments and Framework
+
+Compliance certifications and attestations are assessed by a third-party, independent auditor and result in a certification, audit report, or attestation of compliance. AWS customers remain responsible for complying with applicable compliance laws, regulations and privacy programs. Compliance alignments and frameworks include published security or compliance requirements for a specific purpose, such as a specific industry or function
+
+More Reference: https://aws.amazon.com/compliance/programs/
+
+## Security Tools
+- AWS Identity and Access Management (IAM)
+- AWS Web Application Firewall (WAF)
+- AWS Trusted Advior
+- AWS Shield
+- Amazon Inspector
+- Amazon GuardDuty
+
+
+
+
 
 
 
