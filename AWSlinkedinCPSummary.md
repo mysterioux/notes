@@ -269,22 +269,22 @@ AWS GLOBAL INFRASTRUCTURE
 (Your responsibility vs AWS responsibility)
 Security of cloud computing infrastructures and data is a SHARED RESPONSIBILITY between the customer and AWS
 
--AWS is responsible for SECURITY OF THE CLOUD
--The customer is responsible for SECURITY IN THE CLOUD
+- AWS is responsible for SECURITY OF THE CLOUD
+- The customer is responsible for SECURITY IN THE CLOUD
 
 AWS is responsible for "Security of the Cloud":
-	* AWS is responsible for protecting the infrastructure such as:
-		- physical security of data centers hosting the AWS Cloud
-		- Security of hardward, software, networing, and so on, that runs the cloud computing service
-	so in general, AWS is responsible for security of the computents that make up the AWS CLoud (like the data centers and physical servers)
+* AWS is responsible for protecting the infrastructure such as:
+	- physical security of data centers hosting the AWS Cloud
+	- Security of hardward, software, networing, and so on, that runs the cloud computing service
+so in general, AWS is responsible for security of the computents that make up the AWS CLoud (like the data centers and physical servers)
 
 Customers is responsible for "Security on the Cloud":
-	* Every customer on AWS Cloud is responsible for protecting their own services/data/infrastruture i.e the customer is responsible for security of things inside the AWS Cloud.
-		- Customers are responsible for varying levels of security functions depending on the AWS Cloud service used, such as:
-			- protecting customer data and data encryption
-			- platform, applications , Identity and Access Management
-			- patching operating systems of VMs etc
-			- configuring firewalls etc
+* Every customer on AWS Cloud is responsible for protecting their own services/data/infrastruture i.e the customer is responsible for security of things inside the AWS Cloud.
+	- Customers are responsible for varying levels of security functions depending on the AWS Cloud service used, such as:
+		- protecting customer data and data encryption
+		- platform, applications , Identity and Access Management
+		- patching operating systems of VMs etc
+		- configuring firewalls etc
 ---
 Reference: https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html
 ---
