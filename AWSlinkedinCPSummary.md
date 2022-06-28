@@ -368,14 +368,110 @@ Compliance certifications and attestations are assessed by a third-party, indepe
 
 More Reference: https://aws.amazon.com/compliance/programs/
 
-## Security Tools
-- AWS Identity and Access Management (IAM)
-- AWS Web Application Firewall (WAF)
-- AWS Trusted Advior
-- AWS Shield
-- Amazon Inspector
-- Amazon GuardDuty
+## SECURITY SERVICES OFFERED BY AWS
+* AWS Identity and Access Management (IAM)
+	- Manage acces to services and resources on the AWS Cloud
+	- Manage users and groups
+	- Manage roles
+	- Can provide access to users or other AWS Service
+	- Permissions are [global]: any access setting will be true across all regions
+	- Always Follow th principle of least privilege
 
+	* <strong>Benefits of IAM</strong>
+		- Enhance security
+		- Granular control
+		- Ability to provide temporary credentials
+		- Flexible security credential management
+		- Federated access
+		- Seamless integration across various AWS Services
+
+	* Access to AWS Cloud can be controlled using
+		- Manage Users
+		- Manage IAM Roles
+		- Manage Federated Users (users from already existing platform e.g Microsoft Active Directory)
+
+* AWS Web Application Firewall ( AWS WAF)
+	- Protects web apps running on the AWS Cloud from common web exploits
+	- Firewall service for web application
+	- Protect web apps against exploits that could compromise security or availability
+	- Protect apps from exploits that could force your app to consume excessive resources (i.e becoming expensive)
+
+	* <strong>Benefits of WAF</strong>
+		- Improves web traffic visibility
+		- Provides cost-effective web app protection
+		- Increased security and protection against web attacks
+		- Easy to deploy and maintain
+		- It can be deployed & maintain on Amazon CloudFront as part of your content deliver network solution or Amazon API Gateway
+
+* AWS Shield (DDoS Protection)
+	- An Attempt to make a machine or network resource unavailable
+	- Most often by making excessive repeated requests to the websit using thousands of unique IP addresses
+
+	AWS Shield is a tool that can help to resolved most of the issues stipulated above.
+		- Provides detection and automatic mitigations
+		- Minimize effects of DDoS attacks on your apps
+		- Help minimize application downtime and latency when an attack happen
+
+	AWS Shield has two edition:
+		- Standards:
+			- Automatically enabled
+			- Free
+			- Protects web application againsts a majority of common DDoS attacks
+			- Get comprehensive availability protection against all known infrastructure attacks when you used it with CloudFront and Route 53
+		- Advanced:
+			- Continous, 247 acces to AWS-DDoS ressponse team
+			- Near real-time visibility into events
+			- Integrates with AWS WAF
+			- Provides higher-level protections, network and transport layer protections, and automated application traffic monitoring
+			- Also provides Financial protection against DDoS-related spikes in charges for EC2, elastic load balancers, CloudFront, and Route 53
+			- Available globally on all CloudFront and Route 53 Edge locations
+			- Your web application can be hosted anywhere in the world and still be protected by AWS Shield
+
+* Amazon Inspector
+	- Automated security assessment service for applications
+	- Automatically assess for exposure, vulnerabilities, and derivations from best practices
+	- Generate detailed reports to help check your vulnerabilities
+	- Security teams can get reports validating that tests were performed
+
+	* <strong>Benefits of Amazon Inspector</strong>
+		- Reduce risk of introducing security issues during deployment and development
+		- You can define standards and best practices
+		- Or you can use AWS constantly updated standards
+
+* AWS Trusted Advior
+	- Guides provisioning of resources to follow AWS best practices
+	- Scans your infrastructure and advises you on how it is or is not following AWS best practices
+	- It base its decision on Five (5) categories:
+		- Cost optimization
+		- Performance
+		- Security
+		- Fault tolenrance
+		- Service limits
+	- It then provides action recommendations to meet best practice standards
+
+	Note: All AWS users [Basic Support and Developer Support plan] have free 7 (seven) checks free by AWS Trusted Adviser.They are :
+		- S3 Buckets permissions
+		- Security groups - specific ports unrestricted
+		- IAM use
+		- MFA on root account
+		- EBS public snapshots
+		- RDS public snapshots
+		- Service limits (list of other services offered by AWS)
+
+	Enterprise users have so much more from AWS Trusted Advisers. If you have a Business, Enterprise On-Ramp, or Enterprise Support plan, you can also use the AWS Support API and the AWS Command Line Interface (AWS CLI) to access your checks.
+
+		- They also get weekly updates
+		- More type of checks on top of core checks (used by Basic & Develper plan users)
+		- Set up automated actions in response to alerts using Cloud Watch
+		- Programmatic access to scan results via AWS Support API
+
+References: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor-check-reference.html
+
+* Amazon GuardDuty
+	- An Online 24/7 threat detection service for the AWS Cloud
+	- Monitors for malicious activity and unauthorized behaviour
+	- Analyzes events to send actionable alerts via CloudWatch
+	- It uses machine learning, anomaly detection, and integrated threat intelligence to identify potential threats.
 
 
 
