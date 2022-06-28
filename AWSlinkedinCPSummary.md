@@ -285,7 +285,7 @@ Customers is responsible for "Security on the Cloud":
 		- platform, applications , Identity and Access Management
 		- patching operating systems of VMs etc
 		- configuring firewalls etc
----
+
 Reference: https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html
 ---
 
@@ -324,7 +324,7 @@ Focusing on the Security part of the Well-architected Framwork, we have the foll
 	* Actively monitor alerts
 	* Audit actions and changes to environment in real time
 	
-	[Tools:  AMAZON GUARDDUTY] 
+	[Tools:  AMAZON Shields, AWS Trusted Advior] 
 
 - Infrastructure Protection including "Protecting Network & Protecting Compute"
 	* Apply security on all layers of infrastructure
@@ -332,7 +332,7 @@ Focusing on the Security part of the Well-architected Framwork, we have the foll
 	* Virtual servers: security multiple ayers like subnet, load balancer, and OS
 	* Security best practices should be automated to save time and money when scaling
 	
-	[Tools: AWS Shield]
+	[Tools: AWS Shield & ]
 
 - Data Protection including "Data Classification, Protecting Data at Rest, Protecting Data in Transit"
 	* Data shoud be protected AT REST (images saved in s3 bucket)
@@ -347,7 +347,7 @@ Focusing on the Security part of the Well-architected Framwork, we have the foll
 	* Once issue is resolved, update incident management process
 	* Continue to learn from past mistakes and security events
 	
-	[Tools: AWS Trusted Advior & Amazon Inspector]
+	[Tools: Amazon Inspector]
 
 
 ## AWS Cloud Compliance Programs
@@ -364,6 +364,7 @@ They are broken down by:
 Compliance certifications and attestations are assessed by a third-party, independent auditor and result in a certification, audit report, or attestation of compliance. AWS customers remain responsible for complying with applicable compliance laws, regulations and privacy programs. Compliance alignments and frameworks include published security or compliance requirements for a specific purpose, such as a specific industry or function
 
 More Reference: https://aws.amazon.com/compliance/programs/
+---
 
 ## SECURITY SERVICES OFFERED BY AWS
 * AWS Identity and Access Management (IAM)
@@ -374,7 +375,7 @@ More Reference: https://aws.amazon.com/compliance/programs/
 	- Permissions are [global]: any access setting will be true across all regions
 	- Always Follow th principle of least privilege
 
-	* <strong>Benefits of IAM</strong>
+	<strong>Benefits of IAM</strong>
 		- Enhance security
 		- Granular control
 		- Ability to provide temporary credentials
@@ -393,7 +394,7 @@ More Reference: https://aws.amazon.com/compliance/programs/
 	- Protect web apps against exploits that could compromise security or availability
 	- Protect apps from exploits that could force your app to consume excessive resources (i.e becoming expensive)
 
-	* <strong>Benefits of WAF</strong>
+	<strong>Benefits of WAF</strong>
 		- Improves web traffic visibility
 		- Provides cost-effective web app protection
 		- Increased security and protection against web attacks
@@ -430,7 +431,7 @@ More Reference: https://aws.amazon.com/compliance/programs/
 	- Generate detailed reports to help check your vulnerabilities
 	- Security teams can get reports validating that tests were performed
 
-	* <strong>Benefits of Amazon Inspector</strong>
+	<strong>Benefits of Amazon Inspector</strong>
 		- Reduce risk of introducing security issues during deployment and development
 		- You can define standards and best practices
 		- Or you can use AWS constantly updated standards
@@ -463,6 +464,7 @@ More Reference: https://aws.amazon.com/compliance/programs/
 		- Programmatic access to scan results via AWS Support API
 
 References: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor-check-reference.html
+---
 
 * Amazon GuardDuty
 	- An Online 24/7 threat detection service for the AWS Cloud
