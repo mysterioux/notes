@@ -156,7 +156,8 @@ Learning Objectives: By the end of this chapter, you should be able to:
 The Linux boot process is the procedure for initializing the system. It consists of everything that happens from when the computer power is first switched on until the user interface is fully operational. 
 
 The process is as follow:
-			`Power On
+			
+			Power On
 				|
 			  BIOS
 			  	|
@@ -173,4 +174,4 @@ The process is as follow:
 			Command Shell using getty
 				|
 			X Windows System
-			(GUI - e.g GNOME, Xfce)`
+			(GUI - e.g GNOME, Xfce)
