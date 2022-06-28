@@ -1,12 +1,12 @@
 # AWS Cloud Practitioner Study Topics
 ----------------------------------------
-MAIN DOMAIN TOPICS
-===================
+# MAIN DOMAIN TOPICS
 * Cloud Concepts
 * Security & Complaince
 * Technology
 * Billing & Pricing
 
+---
 
 ## Domain 1: Cloud Concepts
 - 26% of the exam
@@ -84,10 +84,10 @@ Cloud Computing Benefits
 
 
 Type of Cloud Computing
-------------------------
+---
 
 1. Computing Model
------------------
+-------------------
 * IaaS (host)- [Infrastructure as a Service] (main building blocks (aws, azure, gcp)
 	- Infrastructure as a Service (IaaS) contains the basic building blocks for cloud IT and typically provides access to networking features, computers (virtual or on dedicated hardware), and data storage space. 
 
@@ -105,7 +105,7 @@ Type of Cloud Computing
 
 
 2. Deployment Models
-------------------
+---
 * Cloud (Public Cloud) - utilize flexibility and affordaility of cloud computing
 	- A cloud-based application is fully deployed in the cloud and all parts of the application run in the cloud. Applications in the cloud have either been created in the cloud or have been migrated from an existing infrastructure to take advantage of the benefits of cloud computing. Cloud-based applications can be built on low-level infrastructure pieces or can use higher level services that provide abstraction from the management, architecting, and scaling requirements of core infrastructure.
 
@@ -124,8 +124,8 @@ Type of Cloud Computing
 	- They can use the cloud as a backup of their resources.
 
 
-# AWS Well-Architected Framework (5 best practices)
-==================================================
+AWS Well-Architected Framework (5 best practices)
+---
 AWS Well-Architected helps cloud architects build secure, high-performing, resilient, and efficient infrastructure for a variety of applications and workloads. It is built around 6-pillars:
 
 	* Operational Excellence Pillar:
@@ -149,7 +149,7 @@ AWS Well-Architected helps cloud architects build secure, high-performing, resil
 AWS Well-Architected provides a consistent approach for customers and partners to evaluate architectures and implement scalable designs.  
 
 References: 
-------------
+---
 - https://www.wellarchitectedlabs.com/
 - https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc
 
@@ -185,8 +185,8 @@ As described by the lecturer on Linkedin.
 	-Update processes
 	-Learn from failure
 
-# (Quick Fact of AWS )
-----------------------
+Quick Fact of AWS 
+---
 - Jeff Bezos started amazon in 1994 as an humble e-commerce business
 - Amazon Web Services was made public in 2006
 - Planned on launching Merchant.com - an ecommerce platform for third-party shops instead paved the way for Amazon to evolve from "Online Store" to "Service Company"
@@ -204,17 +204,15 @@ It is a Cloud Computing service providr that offers flexibility, reliability, an
 
 [A CLOUD SERVICE PROVIDER] :  is a company which provides multiple Cloud Services, and those Cloud Services can be chained together to create cloud architectures most commonly through internet-hosted computing, storage, and software services.
 
-# POPULAR AWS SERVICES
------------------------
+## POPULAR AWS SERVICES
 - Compute (EC2, Elastic Beanstack)
 - Storage (S3)
 - Database (RDB, DynamoDB, RedShift, Elastic Cache)
 
-# PRACTICAL (HANDS-ON)
-------------------------
--Visit AWS Free Tier (aws.amazon.com/free)
--After 12months, you will be charge regular rate
--3 times of free tier
+## PRACTICAL (HANDS-ON)
+- Visit AWS Free Tier (aws.amazon.com/free)
+- After 12months, you will be charge regular rate
+- 3 times of free tier
 	- Always free (always available)
 	- 12 Months free (expires after 12months and if you go above the limit, 
 	(limitations)
@@ -236,8 +234,8 @@ Project links:
 - https://www.hackster.io/AmazonWebServices/projects
 
 
-# AWS GLOBAL INFRASTRUCTURE
------------------------------------------
+AWS GLOBAL INFRASTRUCTURE
+---
 - AWS Region 
 	: An AWS Region is a physical location in the world where we have multiple Availability Zones. It is a geographical location
 
@@ -249,9 +247,9 @@ Project links:
 - Edge Location
 
 
-*************************
+***************************
 [2. SECURITY & COMPLIANCE]
-*************************
+***************************
 Review:
 - AWS Identity and Access Management (IAM)
 - AWS Web Application Firewall (WAF)
@@ -285,7 +283,7 @@ Security of cloud computing infrastructures and data is a SHARED RESPONSIBILITY 
 -AWS is responsible for SECURITY OF THE CLOUD
 -The customer is responsible for SECURITY IN THE CLOUD
 
-Security on AWS Well-architected framework - the five/six pillars include
+## Security on AWS Well-architected framework - the five/six pillars include
 - Operational Excellence
 - Security
 - Reliability
@@ -293,25 +291,25 @@ Security on AWS Well-architected framework - the five/six pillars include
 - Cost Optimization
 - Sustainability
 
-The Security component of the pillar include
+## The Security component of the pillar include
 - Identity & Access Management (IAM)
-	*Actively manage all-user access
-	*Use strong identity foundation
-	*Principle of least privilege
+	* Actively manage all-user access
+	* Use strong identity foundation
+	* Principle of least privilege
 - Detective Control
-	*Enable traceability: ""Who did what, when?"
-	*Actively monitor alerts
-	*Audit actions and changes to environment in real time
+	* Enable traceability: ""Who did what, when?"
+	* Actively monitor alerts
+	* Audit actions and changes to environment in real time
 - Infrastructure Protection
-	*Apply security on all layers of infrastructure
-	*Not just the outer layer like the physcal data center
-	*Virtual servers: security multiple ayers like subnet, load balancer, and OS
-	*Security best practices should be automated to save time and money when scaling
+	* Apply security on all layers of infrastructure
+	* Not just the outer layer like the physcal data center
+	* Virtual servers: security multiple ayers like subnet, load balancer, and OS
+	* Security best practices should be automated to save time and money when scaling
 - Data Protection
-	*Data shoud be protected AT REST (images saved in s3 bucket)
-	*Data should be protected IN TRANSIT (Email being sent from one server to another)
-	*Security mechanisms should be adjusted dpending on sensitivity of data
-	*Keep people away from data
+	* Data shoud be protected AT REST (images saved in s3 bucket)
+	* Data should be protected IN TRANSIT (Email being sent from one server to another)
+	* Security mechanisms should be adjusted dpending on sensitivity of data
+	* Keep people away from data
 - Incident Response
 	* Intervene, investigate, and deal with all security events
 	* Once issue is resolved, update incident management process
@@ -319,10 +317,10 @@ The Security component of the pillar include
 
 Principle of least privilege
 * Every role has a set of access permsissions necesary to effectively complete its job, and the individual in the role should have no more or no less than the optimal level of access
-	= Use Identity Access Management (IAM) to provide access
-	= You can provide access to resources to both users and other AWS Services
-	= Start with minimum set of permissions, and grand additional only as necessary
-	= Determine what user/service needs to be able to do and craft policies to perform only those specific tasks
+	* Use Identity Access Management (IAM) to provide access
+	* You can provide access to resources to both users and other AWS Services
+	* Start with minimum set of permissions, and grand additional only as necessary
+	* Determine what user/service needs to be able to do and craft policies to perform only those specific tasks
 
 * AWS Cloud Compliance
 https://aws.amazon.com/compliance/programs/
