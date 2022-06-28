@@ -335,3 +335,26 @@ A The top of the following file system rest the root directory '/' which is diff
 		|___ /root/ => Home Directory for the Root User
 		|
 		|___ /proc/ => Virtual File system Documenting kernel and process status as text files
+
+All Linux filesystem names are case-sensitive, so /boot, /Boot, and /BOOT represent three different directories (or folders). Many distributions distinguish between core utilities needed for proper system operation and other programs, and place the latter in directories under /usr (think user). 
+
+## Linux Distributions
+Choosing a linux distros all comes down to planning and its usage. Below are some linux and their specialization
+
+*Server:
+	|__RHEL/CentOS
+	|__Ubuntu Server
+	|__SLES (SUSE Enterprise Server)
+	|__Debian
+
+*Desktop:
+	|__Ubuntu
+	|__Fedora
+	|__Linux Mint
+	|__OpenSUSE
+	|__Debian
+
+*Embedded:
+	|__Yocto
+	|__Open Embedded
+	|__Android
