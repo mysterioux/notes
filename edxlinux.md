@@ -341,20 +341,20 @@ All Linux filesystem names are case-sensitive, so /boot, /Boot, and /BOOT repres
 ## Linux Distributions
 Choosing a linux distros all comes down to planning and its usage. Below are some linux and their specialization
 
-*Server:
+* Server:
 	|__RHEL/CentOS
 	|__Ubuntu Server
 	|__SLES (SUSE Enterprise Server)
 	|__Debian
 
-*Desktop:
+* Desktop:
 	|__Ubuntu
 	|__Fedora
 	|__Linux Mint
 	|__OpenSUSE
 	|__Debian
 
-*Embedded:
+* Embedded:
 	|__Yocto
 	|__Open Embedded
 	|__Android
