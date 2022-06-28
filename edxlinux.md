@@ -300,10 +300,12 @@ Linux uses the ‘/’ character to separate paths (unlike Windows, which uses �
 
 Removable media such as USB drives and CDs and DVDs will show up as mounted at [/run/media/yourusername/disklabel] for recent Linux systems, or under [/media] for older distributions. For example, if your username is student a USB pen drive labeled FEDORA might end up being found at /run/media/student/FEDORA, and a file README.txt on that disc would be at /run/media/student/FEDORA/README.txt.
 
+A The top of the following file system rest the root directory '/' which is different from root folder.
 
-
-		____ /bin/ => Essential User Command Binaries
+		____ / (the base folder)
 		|
+		|___ /bin/ => Essential User Command Binaries
+		|		
 		|___ /boot/ => Static files of the Boot Loader
 		|
 		|___ /dev/ => Device Files
@@ -316,8 +318,8 @@ Removable media such as USB drives and CDs and DVDs will show up as mounted at [
 		|
 		|___ /media/ => Mount point for removable media
 		|
-		|___ /mnt/ => Mount point for a temporarily mounted filesystems
-/-------|
+		|___ /mnt/ => Mount point for a temporarily mounted filesystems|
+		|
 		|___ /opt/ => Add-on Application Software Packages
 		|
 		|___ /sbin/ => System Binaries
