@@ -156,6 +156,7 @@ Learning Objectives: By the end of this chapter, you should be able to:
 The Linux boot process is the procedure for initializing the system. It consists of everything that happens from when the computer power is first switched on until the user interface is fully operational. 
 
 The process is as follow:
+
 			
 	    Power On
 		|
@@ -182,3 +183,15 @@ The process is as follow:
 		|
 		v
 	X Windows System (GUI - e.g GNOME, Xfce)
+
+
+## The Boot Process
+When the computer is powered on, the Basic Input/Output System (BIOS) initializes the hardware, including the screen and keyboard, and tests the main memory. This process is also called POST (Power On Self Test).
+
+	Power On
+	|
+	v
+	BIOS (Basic Input/Output System)
+	|
+	v
+	Initializes the screen and keyboard and test the main memory
