@@ -376,12 +376,12 @@ More Reference: https://aws.amazon.com/compliance/programs/
 	- Always Follow th principle of least privilege
 
 	<strong>Benefits of IAM</strong>
-		- Enhance security
-		- Granular control
-		- Ability to provide temporary credentials
-		- Flexible security credential management
-		- Federated access
-		- Seamless integration across various AWS Services
+	- Enhance security
+	- Granular control
+	- Ability to provide temporary credentials
+	- Flexible security credential management
+	- Federated access
+	- Seamless integration across various AWS Services
 
 	* Access to AWS Cloud can be controlled using
 		- Manage Users
@@ -395,11 +395,11 @@ More Reference: https://aws.amazon.com/compliance/programs/
 	- Protect apps from exploits that could force your app to consume excessive resources (i.e becoming expensive)
 
 	<strong>Benefits of WAF</strong>
-		- Improves web traffic visibility
-		- Provides cost-effective web app protection
-		- Increased security and protection against web attacks
-		- Easy to deploy and maintain
-		- It can be deployed & maintain on Amazon CloudFront as part of your content deliver network solution or Amazon API Gateway
+	- Improves web traffic visibility
+	- Provides cost-effective web app protection
+	- Increased security and protection against web attacks
+	- Easy to deploy and maintain
+	- It can be deployed & maintain on Amazon CloudFront as part of your content deliver network solution or Amazon API Gateway
 
 * AWS Shield (DDoS Protection)
 	- An Attempt to make a machine or network resource unavailable
@@ -432,9 +432,9 @@ More Reference: https://aws.amazon.com/compliance/programs/
 	- Security teams can get reports validating that tests were performed
 
 	<strong>Benefits of Amazon Inspector</strong>
-		- Reduce risk of introducing security issues during deployment and development
-		- You can define standards and best practices
-		- Or you can use AWS constantly updated standards
+	- Reduce risk of introducing security issues during deployment and development
+	- You can define standards and best practices
+	- Or you can use AWS constantly updated standards
 
 * AWS Trusted Advior
 	- Guides provisioning of resources to follow AWS best practices
@@ -463,6 +463,7 @@ More Reference: https://aws.amazon.com/compliance/programs/
 		- Set up automated actions in response to alerts using Cloud Watch
 		- Programmatic access to scan results via AWS Support API
 
+
 References: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor-check-reference.html
 ---
 
@@ -476,11 +477,10 @@ References: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor-c
 
 *************************
 [3. TECHNOLOGY]
-*************************
+
 
 
 
 
 *************************
 [4. BILLING & PRICING]
-*************************
