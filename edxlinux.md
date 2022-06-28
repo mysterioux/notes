@@ -150,3 +150,27 @@ Learning Objectives: By the end of this chapter, you should be able to:
 * Identify the differences between partitions and filesystems.
 * Describe the boot process.
 * Install Linux on a computer.
+
+
+## The Boot Process
+The Linux boot process is the procedure for initializing the system. It consists of everything that happens from when the computer power is first switched on until the user interface is fully operational. 
+
+The process is as follow:
+			`Power On
+				|
+			  BIOS
+			  	|
+			Master Boot Record (MBR) also know as First Secotr of the Hard Disk
+				|
+			Boot Loader (e.g GRUB OR ISOLINUX)
+				|
+			Kernel (Linux OS)
+				|
+			Inital RAM disk- initramfs image
+				|
+			/sbin/init (parent process)
+				|
+			Command Shell using getty
+				|
+			X Windows System
+			(GUI - e.g GNOME, Xfce)`
