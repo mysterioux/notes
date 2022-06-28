@@ -286,7 +286,7 @@ A filesystem is a method of storing/finding files on a hard disk (usually in a p
 One can think of a partition as a container in which a filesystem resides, although in some circumstances, a filesystem can span more than one partition if one uses symbolic links, which we will discuss much later.
 
 |		  		| windows	| 		Linux |
--------------------------------------------
+|---------------|-----------|-------------|
 |Partition 		| Disk 		| /dev/sda1   |
 |Filessytem Type | NFTS/VFAT | EXT3/EXT4/XFS..|
 |Mounting Paramenters | DriveLetter | MountPoint|
