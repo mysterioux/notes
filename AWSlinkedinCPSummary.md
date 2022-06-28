@@ -1,4 +1,4 @@
-# AWS Cloud Practitioner Study Topics
+AWS Cloud Practitioner Study Topics
 ----------------------------------------
 # MAIN DOMAIN TOPICS
 * Cloud Concepts
@@ -33,11 +33,10 @@
 - Need to memorize (or be able to) the different pricing models for AWS
 - Recognize various account structures in AWS billing pricing
 - Identify resources available for billing support
-=================================================================
 
 *************************
-# [1. CLOUD CONCEPTS]
-*************************
+[1. CLOUD CONCEPTS]
+
 What is the Cloud? 
 -------------------
 - A Cloud -> The Internet
@@ -85,9 +84,7 @@ Cloud Computing Benefits
 
 Type of Cloud Computing
 ---
-
-1. Computing Model
--------------------
+# 1. Computing Model
 * IaaS (host)- [Infrastructure as a Service] (main building blocks (aws, azure, gcp)
 	- Infrastructure as a Service (IaaS) contains the basic building blocks for cloud IT and typically provides access to networking features, computers (virtual or on dedicated hardware), and data storage space. 
 
@@ -104,8 +101,7 @@ Type of Cloud Computing
 	service provider. In most cases, people referring to Software as a Service are referring to end-user applications. With a SaaS offering you do not have to think about how the service is maintained or how the underlying infrastructure is managed; you only need to think about how you will use that particular piece of software. A common example of a SaaS application is web-based email which you can use to send and receive email without having to manage feature additions to the email product or maintain the servers and operating systems that the email program is running on.
 
 
-2. Deployment Models
----
+# 2. Deployment Models
 * Cloud (Public Cloud) - utilize flexibility and affordaility of cloud computing
 	- A cloud-based application is fully deployed in the cloud and all parts of the application run in the cloud. Applications in the cloud have either been created in the cloud or have been migrated from an existing infrastructure to take advantage of the benefits of cloud computing. Cloud-based applications can be built on low-level infrastructure pieces or can use higher level services that provide abstraction from the management, architecting, and scaling requirements of core infrastructure.
 
@@ -128,23 +124,23 @@ AWS Well-Architected Framework (5 best practices)
 ---
 AWS Well-Architected helps cloud architects build secure, high-performing, resilient, and efficient infrastructure for a variety of applications and workloads. It is built around 6-pillars:
 
-	* Operational Excellence Pillar:
-		- The operational excellence pillar focuses on running and monitoring systems, and continually improving processes and procedures. Key topics include automating changes, responding to events, and defining standards to manage daily operations.
+* Operational Excellence Pillar:
+	- The operational excellence pillar focuses on running and monitoring systems, and continually improving processes and procedures. Key topics include automating changes, responding to events, and defining standards to manage daily operations.
 
-	* Security Pillar:
-		- The security pillar focuses on protecting information and systems. Key topics include confidentiality and integrity of data, managing user permissions, and establishing controls to detect security events.
+* Security Pillar:
+	- The security pillar focuses on protecting information and systems. Key topics include confidentiality and integrity of data, managing user permissions, and establishing controls to detect security events.
 
-	* Reliability Pillar:
-		- The reliability pillar focuses on workloads performing their intended functions and how to recover quickly from failure to meet demands. Key topics include distributed system design, recovery planning, and adapting to changing requirements.
+* Reliability Pillar:
+	- The reliability pillar focuses on workloads performing their intended functions and how to recover quickly from failure to meet demands. Key topics include distributed system design, recovery planning, and adapting to changing requirements.
 
-	* Performance Efficiency Pillar: 
-		- The performance efficiency pillar focuses on structured and streamlined allocation of IT and computing resources. Key topics include selecting resource types and sizes optimized for workload requirements, monitoring performance, and maintaining efficiency as business needs evolve.
+* Performance Efficiency Pillar: 
+	- The performance efficiency pillar focuses on structured and streamlined allocation of IT and computing resources. Key topics include selecting resource types and sizes optimized for workload requirements, monitoring performance, and maintaining efficiency as business needs evolve.
 
-	* Cost Optimization Pillar:
-		- The cost optimization pillar focuses on avoiding unnecessary costs. Key topics include understanding spending over time and controlling fund allocation, selecting resources of the right type and quantity, and scaling to meet business needs without overspending.
+* Cost Optimization Pillar:
+	- The cost optimization pillar focuses on avoiding unnecessary costs. Key topics include understanding spending over time and controlling fund allocation, selecting resources of the right type and quantity, and scaling to meet business needs without overspending.
 
-	* Sustainability Pillar:
-		- The sustainability pillar focuses on minimizing the environmental impacts of running cloud workloads. Key topics include a shared responsibility model for sustainability, understanding impact, and maximizing utilization to minimize required resources and reduce downstream impacts.  
+* Sustainability Pillar:
+	- The sustainability pillar focuses on minimizing the environmental impacts of running cloud workloads. Key topics include a shared responsibility model for sustainability, understanding impact, and maximizing utilization to minimize required resources and reduce downstream impacts.  
 
 AWS Well-Architected provides a consistent approach for customers and partners to evaluate architectures and implement scalable designs.  
 
@@ -153,6 +149,7 @@ References:
 - https://www.wellarchitectedlabs.com/
 - https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc
 
+---
  The AWS Well-Architected Tool, available at no cost in the AWS Management Console, provides a mechanism for regularly [evaluating workloads], [identifying high-risk issues], and [recording improvements].
 
  Build the most secure, durable, efficient and high-performing IT infrastructure possible (sustainability)
@@ -248,9 +245,9 @@ AWS GLOBAL INFRASTRUCTURE
 
 
 ***************************
-[2. SECURITY & COMPLIANCE]
-***************************
-# Area of focus on AWS Security & Complaince
+# [2. SECURITY & COMPLIANCE]
+
+## Area of focus on AWS Security & Complaince
 - Define the AWS Shared responsibility Model
 - Define the AWS Cloud Security and compliance concepts
 - Identify AWS Access management capabilities
@@ -288,9 +285,9 @@ Customers is responsible for "Security on the Cloud":
 			- platform, applications , Identity and Access Management
 			- patching operating systems of VMs etc
 			- configuring firewalls etc
-
+---
 Reference: https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html
-
+---
 
 ## The 3 Major Security Practice of AWS
 1. Shared Responsibility Model.
@@ -472,9 +469,6 @@ References: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor-c
 	- Monitors for malicious activity and unauthorized behaviour
 	- Analyzes events to send actionable alerts via CloudWatch
 	- It uses machine learning, anomaly detection, and integrated threat intelligence to identify potential threats.
-
-
-
 
 
 
