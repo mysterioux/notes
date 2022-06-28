@@ -308,7 +308,7 @@ Using the SCROPS - Structur
 
 Focusing on the Security part of the Well-architected Framwork, we have the following component that will help us to build architectures that protect your data and systems, control access, and respond automatically to security events.
 
-### SECURITY PILLAR COMPONENT INCLUDE:
+### 5 SECURITY PILLAR COMPONENT INCLUDE:
 - Identity & Access Management (IAM) including "Identity Management & Permission Management"
 	* Actively manage all-user access
 	* Use strong identity foundation
