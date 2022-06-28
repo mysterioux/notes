@@ -157,10 +157,10 @@ The Linux boot process is the procedure for initializing the system. It consists
 
 The process is as follow:
 			
-		Power On
+	   Power On
 		|
 		v
-		BIOS
+	   BIOS
 	  	|
 	  	v
 	Master Boot Record (MBR) also know as First Secotr of the Hard Disk
