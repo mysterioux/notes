@@ -160,7 +160,7 @@ The process is as follow:
 	    Power On
 		|
 		v
-	     BIOS
+	      BIOS
 	  	|
 	  	v
 	Master Boot Record (MBR) also know as First Secotr of the Hard Disk
@@ -181,5 +181,4 @@ The process is as follow:
 	Command Shell using getty
 		|
 		v
-	X Windows System
-	(GUI - e.g GNOME, Xfce)
+	X Windows System (GUI - e.g GNOME, Xfce)
